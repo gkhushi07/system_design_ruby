@@ -1,0 +1,14 @@
+-> In this example, the children are the books defined in the execute.rb
+-> Genre service is the parent
+-> for each book( that is the sub class in ideal case), 
+   we are passing the genre of the book in the constructor of the parent 
+   GenreService and calling the genre method that is been called as per the strategy.
+
+-> The class methods are the ones with self.method_name,
+   which can be called using ClassName.method_name
+-> The instance method are the ones with direct method_name 
+   which can be called using ClassName.new.method_name
+
+In case of model class, we can directly call the column name inside that class but
+In scope of a method inside that class if we override the column name we will have to use 
+self.column_name inside that method
